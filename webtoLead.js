@@ -8,7 +8,8 @@ function beforesubmit (event){
     let formatteddate = new Date (inputdate.value).toLocaleDateString("en-IN");
     outputdate.value = formatteddate;
   }else{
-    alert ("Please check the reCAPTCHA box to submit the lead");
+    alert("please check the reCAPTCHA box to submit the form");
+    
     event.preventDefault();
   }
 
