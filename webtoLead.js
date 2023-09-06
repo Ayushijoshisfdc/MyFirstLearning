@@ -9,7 +9,6 @@ function beforesubmit (event){
     outputdate.value = formatteddate;
   }else{
     alert("please check the reCAPTCHA box to submit the form");
-    
     event.preventDefault();
   }
 
